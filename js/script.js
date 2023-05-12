@@ -53,7 +53,6 @@ $("form#calculator-form").submit(function (event) {
         // const numbers = [number1, number2];
         // result = average(numbers);
         }
-       gjgvghvhvhvghvhgvhv
     $("#result").text(result);
 });
 });
