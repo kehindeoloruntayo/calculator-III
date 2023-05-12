@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="./img/icon.jpeg">
+  <script src="js/jquery-3.6.4.js"></script>
+  <script src="js/script.js"></script>
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="background">
+    <img src="./img/pexels-photo-5554657.jpeg" alt="background">
+  </div>
+  <div class="container">
+    <h1>Calculator</h1>
+    <form id="calculator-form">
+      <label for="number1">Enter a number:</label>
+      <input type="number" id="number1">
+      <label for="number2">Enter another number:</label>
+      <input type="number" id="number2">
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="add" checked>
+          add
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="subtract">
+          subtract
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="multiply">
+          multiply
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="divide">
+          divide
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="modulus">
+          modulus
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="square-root">
+          square root
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="average">
+          average
+        </label>
+      </div>
+
+      <input type="submit" value="Calculate">
+    </form>`
+    <div type="number" id="result" readonly>
+    </div>
+  </div>
+</body>
+
+</html>
