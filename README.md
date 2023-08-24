@@ -19,4 +19,4 @@
 * _Report any suspected security problem to the contact above._
 
 ## Notice
-Calculator contains pieces of source code that is under MIT licence. This notice is included here to comply with the distribution terms.
+Calculator contains pieces of source code that is under MIT license. This notice is included here to comply with the distribution terms.
